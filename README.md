@@ -8,5 +8,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Fully functional components app
 - Routing
-- API queries and responses using [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/
+- API queries and responses using https://jsonplaceholder.typicode.com/
 - Responsive design
