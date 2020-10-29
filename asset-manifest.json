@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/test-incora/static/css/main.c1a6813e.chunk.css",
-    "main.js": "/test-incora/static/js/main.59cd8275.chunk.js",
-    "main.js.map": "/test-incora/static/js/main.59cd8275.chunk.js.map",
+    "main.js": "/test-incora/static/js/main.68f33da4.chunk.js",
+    "main.js.map": "/test-incora/static/js/main.68f33da4.chunk.js.map",
     "runtime-main.js": "/test-incora/static/js/runtime-main.c7505ba0.js",
     "runtime-main.js.map": "/test-incora/static/js/runtime-main.c7505ba0.js.map",
     "static/js/2.d7f97576.chunk.js": "/test-incora/static/js/2.d7f97576.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c7505ba0.js",
     "static/js/2.d7f97576.chunk.js",
     "static/css/main.c1a6813e.chunk.css",
-    "static/js/main.59cd8275.chunk.js"
+    "static/js/main.68f33da4.chunk.js"
   ]
 }
