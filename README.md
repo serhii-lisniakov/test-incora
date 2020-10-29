@@ -1,4 +1,4 @@
-# This is a test task for the Incora IT company, Lviv
+# This is a test task for Incora IT company, Lviv
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
