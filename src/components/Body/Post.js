@@ -113,7 +113,7 @@ export const FullPost = (props) => {
         dispatch(updatePostAction(updPost))
     }
 
-    if (!props.location.custom) window.history.back();
+    if (!props.history.location.custom) window.history.back();
     return (
         <PostWrapper 
             data-overlay={true} 
