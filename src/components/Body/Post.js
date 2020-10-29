@@ -91,8 +91,8 @@ const NoComments = styled.p`
 export const FullPost = (props) => {
     const comments = useSelector(store => store.comments)
     const dispatch = useDispatch()
-    const [title, setTitle] = useState(props.history.location.custom.title)
-    const [body, setBody] = useState(props.history.location.custom.body)
+    const [title, setTitle] = useState(props.location.custom.title)
+    const [body, setBody] = useState(props.location.custom.body)
     const postId = props.match.params.postId.replace(/[^\d]/g, '')
 
     useEffect(() => dispatch(loadCommentsAction(postId)), [])
@@ -107,13 +107,13 @@ export const FullPost = (props) => {
             id: +postId,
             title,
             body,
-            userId: +props.history.location.custom.userId
+            userId: +props.location.custom.userId
         }
         window.history.back()
         dispatch(updatePostAction(updPost))
     }
 
-    if (!props.history.location.custom) window.history.back();
+    if (!props.location.custom) window.history.back();
     return (
         <PostWrapper 
             data-overlay={true} 
@@ -132,7 +132,7 @@ export const FullPost = (props) => {
                 />
                 <Label>Comments:</Label>
                 <Comments>
-                    {!comments.lenght && <NoComments>No comments!</NoComments>}
+                    {!comments.length && <NoComments>No comments!</NoComments>}
                     {comments.map((comment, i) => (
                         <Comment key={i} email={comment.email}>
                             {comment.name}
