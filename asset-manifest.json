@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-incora/static/css/main.c1a6813e.chunk.css",
+    "main.js": "/test-incora/static/js/main.59cd8275.chunk.js",
+    "main.js.map": "/test-incora/static/js/main.59cd8275.chunk.js.map",
+    "runtime-main.js": "/test-incora/static/js/runtime-main.c7505ba0.js",
+    "runtime-main.js.map": "/test-incora/static/js/runtime-main.c7505ba0.js.map",
+    "static/js/2.d7f97576.chunk.js": "/test-incora/static/js/2.d7f97576.chunk.js",
+    "static/js/2.d7f97576.chunk.js.map": "/test-incora/static/js/2.d7f97576.chunk.js.map",
+    "index.html": "/test-incora/index.html",
+    "static/css/main.c1a6813e.chunk.css.map": "/test-incora/static/css/main.c1a6813e.chunk.css.map",
+    "static/js/2.d7f97576.chunk.js.LICENSE.txt": "/test-incora/static/js/2.d7f97576.chunk.js.LICENSE.txt",
+    "static/media/chatbg.f60957f3.jpg": "/test-incora/static/media/chatbg.f60957f3.jpg",
+    "static/media/pencil.2dd51d4c.svg": "/test-incora/static/media/pencil.2dd51d4c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7505ba0.js",
+    "static/js/2.d7f97576.chunk.js",
+    "static/css/main.c1a6813e.chunk.css",
+    "static/js/main.59cd8275.chunk.js"
+  ]
+}
